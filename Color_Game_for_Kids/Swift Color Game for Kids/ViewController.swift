@@ -84,7 +84,7 @@ class ViewController: UIViewController {
                     for (key,val) in json{
                         println("\(key):\(val)")
                     }
-                    println("******************")
+                   
                     println(json["springgreen"])
                     
                     for (key,val) in json{
