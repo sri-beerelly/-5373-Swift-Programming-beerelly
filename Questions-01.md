@@ -6,7 +6,7 @@
 Q1 Write a function to return min and max values of an integer array, when
    a. array has more than zero elements.
    b. array has zero elements.
-```
+```swift
 
 Q2 var array1 = [a,b,c]
    var array2 = array1
