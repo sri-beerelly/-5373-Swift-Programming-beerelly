@@ -5,9 +5,9 @@
 
 Q1 Write a function to return min and max values of an integer array, when
 
-   a. array has more than zero elements.
+      a. array has more than zero elements.
    
-   b. array has zero elements.
+      b. array has zero elements.
    
 Q2
 ```swift
@@ -20,6 +20,7 @@ Q2
 ```
 
 Q3  a. Create a mutable dictionary and an immutable dictionary.
+
     b. Create a mutable array and an immutable array.
 
 
