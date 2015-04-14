@@ -4,7 +4,9 @@
 ---------
 
 Q1 Write a function to return min and max values of an integer array, when
+
    a. array has more than zero elements.
+   
    b. array has zero elements.
    
 Q2
