@@ -19,9 +19,10 @@ Q2
    In the above code snippet what is the value of lenth and give the specific reason?
 ```
 
-Q3 a. Create a mutable dictionary and an immutable dictionary.
+Q3 
+a. Create a mutable dictionary and an immutable dictionary.
 
-   b. Create a mutable array and an immutable array.
+b. Create a mutable array and an immutable array.
 
 
 
