@@ -67,7 +67,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     override func viewWillAppear(animated: Bool) {
         // Get a reference to the location data from the custom tab bar controller.
-        let position = (self.tabBarController as CustomTabBarController).position
+        let position = (self.tabBarController as! CustomTabBarController).position
         
         if let location = location{
             
@@ -85,7 +85,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     func locationManager(manager: CLLocationManager!,
         didUpdateLocations locations: [AnyObject]!) {
-            let newLocation = locations.last as CLLocation
+            let newLocation = locations.last as! CLLocation
             println("didUpdateLocations \(newLocation)")
             
             location = newLocation
@@ -95,7 +95,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     func updateLabels(){
         
-        let position = (self.tabBarController as CustomTabBarController).position
+        let position = (self.tabBarController as! CustomTabBarController).position
         if let location = location{
             latitudeLabel.text = String(format: "%.8f", location.coordinate.latitude)
             longitudeLabel.text = String(format: "%.8f", location.coordinate.longitude)

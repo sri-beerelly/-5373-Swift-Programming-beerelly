@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10BFB3E91AE71B82002D53B3 /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BFB3E81AE71B82002D53B3 /* colors.swift */; };
 		42E23D551A83E10800428559 /* Almofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E23D541A83E10800428559 /* Almofire.swift */; };
 		8514B4CE1A814C0B005F9715 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 8514B4CD1A814C0B005F9715 /* colors.json */; };
 		8514B53D1A818147005F9715 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8514B53C1A818147005F9715 /* SwiftyJSON.swift */; };
@@ -21,41 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8514B5271A817EAF005F9715 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
-		8514B5291A817EAF005F9715 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
-			remoteInfo = "Alamofire OSX";
-		};
-		8514B52B1A817EAF005F9715 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS Tests";
-		};
-		8514B52D1A817EAF005F9715 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
-			remoteInfo = "Alamofire OSX Tests";
-		};
-		8514B53A1A818092005F9715 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4DD67C0A1A5C55C900ED2280;
-			remoteInfo = "Alamofire OSX";
-		};
 		85B054361A7FF98600B60421 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 85B054181A7FF98600B60421 /* Project object */;
@@ -66,9 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10BFB3E81AE71B82002D53B3 /* colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
 		42E23D541A83E10800428559 /* Almofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Almofire.swift; sourceTree = "<group>"; };
 		8514B4CD1A814C0B005F9715 /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
-		8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Swift Color Game for Kids/Alamofire/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		8514B53C1A818147005F9715 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		85B054201A7FF98600B60421 /* Swift Color Game for Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Color Game for Kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B054241A7FF98600B60421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,23 +68,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8514B5211A817EAF005F9715 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8514B5281A817EAF005F9715 /* Alamofire.framework */,
-				8514B52A1A817EAF005F9715 /* Alamofire.framework */,
-				8514B52C1A817EAF005F9715 /* Alamofire iOS Tests.xctest */,
-				8514B52E1A817EAF005F9715 /* Alamofire OSX Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		85B054171A7FF98600B60421 = {
 			isa = PBXGroup;
 			children = (
 				42E23D541A83E10800428559 /* Almofire.swift */,
 				8514B53C1A818147005F9715 /* SwiftyJSON.swift */,
-				8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */,
 				85B054221A7FF98600B60421 /* Swift Color Game for Kids */,
 				85B054381A7FF98600B60421 /* Swift Color Game for KidsTests */,
 				85B054211A7FF98600B60421 /* Products */,
@@ -152,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				85B054451A801B0B00B60421 /* thumbs_down.png */,
+				10BFB3E81AE71B82002D53B3 /* colors.swift */,
 				85B054461A801B0B00B60421 /* thumbs_up.png */,
 				85B054241A7FF98600B60421 /* Info.plist */,
 			);
@@ -189,7 +144,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				8514B53B1A818092005F9715 /* PBXTargetDependency */,
 			);
 			name = "Swift Color Game for Kids";
 			productName = "Swift Color Game for Kids";
@@ -243,12 +197,6 @@
 			mainGroup = 85B054171A7FF98600B60421;
 			productRefGroup = 85B054211A7FF98600B60421 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8514B5211A817EAF005F9715 /* Products */;
-					ProjectRef = 8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				85B0541F1A7FF98600B60421 /* Swift Color Game for Kids */,
@@ -256,37 +204,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		8514B5281A817EAF005F9715 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 8514B5271A817EAF005F9715 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8514B52A1A817EAF005F9715 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 8514B5291A817EAF005F9715 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8514B52C1A817EAF005F9715 /* Alamofire iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire iOS Tests.xctest";
-			remoteRef = 8514B52B1A817EAF005F9715 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8514B52E1A817EAF005F9715 /* Alamofire OSX Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire OSX Tests.xctest";
-			remoteRef = 8514B52D1A817EAF005F9715 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		85B0541E1A7FF98600B60421 /* Resources */ = {
@@ -317,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E23D551A83E10800428559 /* Almofire.swift in Sources */,
+				10BFB3E91AE71B82002D53B3 /* colors.swift in Sources */,
 				8514B53D1A818147005F9715 /* SwiftyJSON.swift in Sources */,
 				85B054281A7FF98600B60421 /* ViewController.swift in Sources */,
 				85B054261A7FF98600B60421 /* AppDelegate.swift in Sources */,
@@ -334,11 +252,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8514B53B1A818092005F9715 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire OSX";
-			targetProxy = 8514B53A1A818092005F9715 /* PBXContainerItemProxy */;
-		};
 		85B054371A7FF98600B60421 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 85B0541F1A7FF98600B60421 /* Swift Color Game for Kids */;

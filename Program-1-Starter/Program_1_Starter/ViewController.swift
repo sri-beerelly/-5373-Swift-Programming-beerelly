@@ -73,7 +73,6 @@ class ViewController: UIViewController {
 
         //Fetch the Json color object from the CS server
         request(.GET, "http://cs.mwsu.edu/~griffin/swift/colors2.json")
-            //request(.GET,"/Users/Sri/5373-Swift-Programming/Program-1-Starter/Program_1_Starter/colors.json" )
             .responseJSON { (req, res, json, error) in
                 if(error != nil) {
                     println("Error: \(error)")
@@ -376,7 +375,7 @@ class myJson {
     
     class func parseJSON(inputData: NSData) -> NSDictionary{
         var error: NSError?
-        var boardsDictionary: NSDictionary = NSJSONSerialization.JSONObjectWithData(inputData, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary
+        var boardsDictionary: NSDictionary = NSJSONSerialization.JSONObjectWithData(inputData, options: NSJSONReadingOptions.MutableContainers, error: &error) as! NSDictionary
         return boardsDictionary
     }
 }
@@ -394,7 +393,7 @@ func hexStringToUIColor (hex:String) -> UIColor {
         cString = cString.substringFromIndex(advance(cString.startIndex, 1))
     }
     
-    if (countElements(cString) != 6) {
+    if (count(cString) != 6) {
         return UIColor.grayColor()
     }
     
