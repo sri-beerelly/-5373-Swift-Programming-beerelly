@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>ADD99957-A5E9-4A42-85DC-B2C79C1FC08E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>MyLocations</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>39BE432D3AAD14A87C9B18378F2DE2318592DD1E</key>
 		<string>https://github.com/sri-beerelly/5373-Swift-Programming-beerelly.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CoreDataStarter /MyLocations.xcodeproj/project.xcworkspace</string>
+	<string>CoreDataStarter /MyLocations.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>39BE432D3AAD14A87C9B18378F2DE2318592DD1E</key>
